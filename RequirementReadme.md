@@ -42,36 +42,36 @@ The following APIs are available in Peddy:
 
 ### 1. **Navbar**
 
-- Implement the navbar as per the Figma design.
-- Ensure it is responsive across Desktop, Tablet, and Mobile devices.
-- The navbar should collapse into a mobile menu on smaller screens.
+Okay- Implement the navbar as per the Figma design.
+Okay- Ensure it is responsive across Desktop, Tablet, and Mobile devices.
+Okay- The navbar should collapse into a mobile menu on smaller screens.
 
 ### 2. **Banner Section**
 
-- Design the banner section as per Figma design.
-- Include a "View More" button that, when clicked, scrolls down to the “Adopt Your Best Friend” section.
-- Ensure the banner is fully responsive.
+Okay- Design the banner section as per Figma design.
+Okay- Include a "View More" button that, when clicked, scrolls down to the “Adopt Your Best Friend” section.
+Okay- Ensure the banner is fully responsive.
 
 ### 3. **Adopt Your Best Friend Section**
 
 - **Left Side**:
-  - Display 4 dynamic categories below the section title and subtitle, fetched from the provided API.
+  Okay- Display 4 dynamic categories below the section title and subtitle, fetched from the provided API.
   - Add a "Sort By Price" button on the right, with a subtitle on the left, as per the design.
-  - By default, show all available pets, with the active category styled according to Figma.
+  Okay- By default, show all available pets, with the active category styled according to Figma.
   - After clicking on a category, fetch and display pets from that category in a grid layout.
   - If no pets are available for a category, show a meaningful message.
   - Each card must display the following:
-    - Thumbnail/Image
-    - Pet Name
-    - Breed
-    - Birth Date
-    - Gender
-    - Price
-    - Buttons: "Like", "Adopt", and "Details"
+    Okay- Thumbnail/Image
+    Okay- Pet Name
+    Okay- Breed
+    Okay- Birth Date
+    Okay- Gender
+    Okay- Price
+    Okay- Buttons: "Like", "Adopt", and "Details"
   - If any field is missing from the API response, handle it by displaying a placeholder or meaningful message.
 - **Right Side**:
   - Clicking the "Like" button should add the pet's thumbnail to the right-side grid.
-  - Display a 2-column layout for liked pet thumbnails.
+  Okay- Display a 2-column layout for liked pet thumbnails.
 
 ### 4. **Modal Window**
 
@@ -80,13 +80,13 @@ The following APIs are available in Peddy:
 
 ### 5. **Footer**
 
-- Implement the footer as per the Figma design.
-- Ensure it is responsive.
+Okay- Implement the footer as per the Figma design.
+Okay- Ensure it is responsive.
 
 ### 6. **Responsive Design**
 
-- The entire platform must be responsive and functional on Desktop, Tablet, and Mobile devices.
-- Use Tailwind CSS breakpoints for responsiveness.
+Okay- The entire platform must be responsive and functional on Desktop, Tablet, and Mobile devices.
+Okay- Use Tailwind CSS breakpoints for responsiveness.
 
 ## Challenges
 
