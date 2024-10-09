@@ -24,6 +24,5 @@
 
  ## **Live link to the deployed project:**
   [https://openapi.programming-hero.com/api/peddy/categories]
-    
 
 

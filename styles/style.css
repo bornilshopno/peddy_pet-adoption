@@ -1,13 +1,16 @@
+/* spinner for default pet datas */
 #loader {
   width: 32px;
   height: 32px;
   position: relative;
   border-radius: 50%;
-  color: #FF3D00;
+  color: teal;
   animation: fill 1s ease-in infinite alternate;
-  display:none;
+  display: none;
 }
-#loader::before , #loader::after {
+
+#loader::before,
+#loader::after {
   content: '';
   position: absolute;
   height: 100%;
@@ -25,26 +28,27 @@
 }
 
 @keyframes fill {
- 0% {  box-shadow: 0 0 0 2px inset }
- 100%{ box-shadow: 0 0 0 10px inset }
+  0% {
+    box-shadow: 0 0 0 2px inset
+  }
+
+  100% {
+    box-shadow: 0 0 0 10px inset
+  }
 }
-  
-
-
-  
 
 @keyframes fill {
- 0% {  box-shadow: 0 0 0 2px inset }
- 100%{ box-shadow: 0 0 0 10px inset }
+  0% {
+    box-shadow: 0 0 0 2px inset
+  }
+
+  100% {
+    box-shadow: 0 0 0 10px inset
+  }
 }
 
-
-  
-
-
-  
+/* spinner for category wise pet datas */
 #loader2 {
-  display:none;
   position: relative;
   width: 64px;
   height: 64px;
@@ -52,31 +56,46 @@
   transform: rotate(45deg);
   overflow: hidden;
 }
-#loader2:after{
+
+#loader2:after {
   content: '';
   position: absolute;
   inset: 8px;
   margin: auto;
   background: #222b32;
 }
-#loader2:before{
+
+#loader2:before {
   content: '';
   position: absolute;
   inset: -15px;
   margin: auto;
-  background: #de3500;
+  background: teal;
   animation: diamondLoader 2s linear infinite;
 }
+
 @keyframes diamondLoader {
-  0%  ,10% {
-    transform: translate(-64px , -64px) rotate(-45deg)
+
+  0%,
+  10% {
+    transform: translate(-64px, -64px) rotate(-45deg)
   }
-  90% , 100% {
-    transform: translate(0px , 0px) rotate(-45deg)
+
+  90%,
+  100% {
+    transform: translate(0px, 0px) rotate(-45deg)
   }
 }
 
-  .active{
-    background-color: teal;
-    color:white;
-  }
+/* for category buttons*/
+.active {
+  background-color: teal;
+  color: white;
+  border-radius: 50px;
+}
+
+/* for like buttons*/
+.active2 {
+  background-color: rgba(0, 128, 128, 0.5);
+  color: white;
+}
