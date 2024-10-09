@@ -23,6 +23,6 @@
 
 
  ## **Live link to the deployed project:**
-  [https://openapi.programming-hero.com/api/peddy/categories]
+  [https://peddy-pet-adoption-place.netlify.app/](https://peddy-pet-adoption-place.netlify.app/)
 
 

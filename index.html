@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peddy Website</title>
+    <!-- css linkup -->
     <link rel="stylesheet" href="./styles/style.css">
-
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/logo.webp" type="image/x-icon">
     <!-- font awssome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
@@ -17,7 +19,9 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 
     <script>
         /** @type {import('tailwindcss').Config} */
@@ -100,7 +104,7 @@
         <p class="text-center max-w-screen-md mx-auto">Friendship with a pet brings joy, loyalty, and unconditional
             love. Pets offer comfort, companionship, and emotional support, helping to reduce stress and loneliness
             while enriching life with their playful, loving nature.</p>
-        <div class="flex gap-5 flex-col md:flex-row justify-between items-center" id="button-container">
+        <div class="flex gap-5 flex-col sm:flex-row justify-center items-center flex-wrap" id="button-container">
         </div>
     </section>
 
@@ -112,7 +116,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
             <div id="pets-container"
-                class="lg:col-span-3 md:col-span-2 rounded-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 relative min-h-52">
+                class="lg:col-span-3 md:col-span-2 rounded-lg grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 relative min-h-52">
                 <!-- spinner section-->
                 <div class="absolute top-[50%] right-[50%]">
                     <div id="loader" class=""></div>
@@ -122,29 +126,29 @@
             <div class="border-2 rounded-lg">
                 <h1 class="font-bold text-2xl pt-3 text-center rounded-md text-secondaryColor">My Favourites</h1>
                 <div class="divider"></div>
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 p-2" id="favourite-pets">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 p-2" id="favourite-pets">
                 </div>
             </div>
         </div>
     </section>
-<!-- for adoption button modal -->
+    <!-- for adoption button modal -->
     <div>
         <dialog id="my_modal_3" class="modal">
             <div class="modal-box">
                 <form method="dialog">
                     <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                 </form>
-                <div id="success">   </div>
+                <div id="success"> </div>
             </div>
         </dialog>
     </div>
     <!-- for details button modal -->
     <div id="modal-container" class="border-2">
     </div>
-<!-- footer -->
+    <!-- footer -->
     <footer class="bg-black ">
         <div
-            class="footer text-base-content  py-2 sm:py-10 flex flex-col-reverse md:flex-row justify-between gap-20  w-7/12 sm:w-10/12 mx-auto text-white ">
+            class="footer text-base-content  py-2 sm:py-10 flex flex-col-reverse md:flex-row  justify-between gap-20 w-10/12 mx-auto text-white ">
             <nav>
                 <button class="flex gap-2 items-center">
                     <img src="./images/logo.webp" alt="" srcset="">
@@ -205,7 +209,8 @@
             </form>
         </div>
     </footer>
-<!-- linking JS file -->
+    <!-- linking JS file -->
     <script src="./js/app.js"></script>
 </body>
+
 </html>
