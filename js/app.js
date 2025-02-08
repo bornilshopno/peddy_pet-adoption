@@ -129,6 +129,7 @@ const loadIdWiseItems = async (petId) => {
   loadPet(data.petData);
 }
 //assigining pet on details
+//with modal
 const loadPet = (id) => {
   const modalContainer = document.getElementById('modal-container');
   modalContainer.innerHTML = `
